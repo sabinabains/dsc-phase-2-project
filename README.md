@@ -16,10 +16,34 @@ Details of the 5 Family's being considered for the first year of this program:
 * Family 4 would like a 4 bedroom, 3 bathroom house in zipcode 98065. They prefer a basement and a home quality of at least 6/10
 * Family 5 would like a 1 bedroom, 2 bathroom house in zipcode 98001. They would prefer a home quality of at least 5/10
 
-## 
-**This is how to bold**
-* [This is how to link](https://github.com/learn-co-curriculum/dsc-data-science-processes) 
+## Methodology
 
+This dataset ([linked here](https://www.kaggle.com/harlfoxem/housesalesprediction)) contains house sale prices for King County, Washington. The dataset has a sample of 21,597 homes sold between May 2014 and May 2015, and has the following columns:
+
+* id
+* date
+* price
+* bedrooms
+* bathrooms
+* sqft_living
+* sqft_lot
+* floors
+* waterfront
+* view
+* condition
+* grade
+* sqft_above
+* sqft_basement
+* yr_built
+* yr_renovated
+* zipcode
+* lat
+* long
+* sqft_living15
+* sqft_lot15
+
+"price" was used as the dependent variable in our regression. The distribution of this variable had a positive skew:
+![price hist](https://github.com/sabinabains/dsc-phase-2-project/blob/main/images/price%hist.png)
 
 ## Repository Structure
 
