@@ -19,3 +19,15 @@ Details of the 5 Family's being considered for the first year of this program:
 ## 
 **This is how to bold**
 * [This is how to link](https://github.com/learn-co-curriculum/dsc-data-science-processes) 
+
+
+## Repository Structure
+
+```
+├── data
+├── images
+├── previous code
+├── README.md
+├── Presentation.pdf
+└── analysis.ipynb
+```
