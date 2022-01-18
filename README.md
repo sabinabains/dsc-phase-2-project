@@ -43,7 +43,7 @@ This dataset ([linked here](https://www.kaggle.com/harlfoxem/housesalespredictio
 * sqft_lot15
 
 "price" was used as the dependent variable in our regression. The distribution of this variable had a positive skew:
-![price hist](https://github.com/sabinabains/dsc-phase-2-project/blob/main/images/price%hist.png)
+![price hist](https://github.com/sabinabains/dsc-phase-2-project/blob/main/images/price_hist.png)
 
 ## Repository Structure
 
