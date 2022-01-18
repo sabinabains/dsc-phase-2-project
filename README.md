@@ -1,4 +1,5 @@
 # Budget Analysis for King County Healing Association
+![kcha_logo](https://github.com/sabinabains/dsc-phase-2-project/blob/main/kcha%20logo.png)
 
 King County Healing Association is an established nonprofit organization that has a variety of successful initiatives such as rehabilitation centers, medical assistance, career services, and temporary housing for those re-entering their communities. The organization now wants to expand on their housing opportunities by rolling out a new service to help those who are prepared to transition into a permanent residence.  
 
@@ -17,4 +18,3 @@ Details of the 5 Family's being considered for the first year of this program:
 
 **This is how to bold**
 * [This is how to link](https://github.com/learn-co-curriculum/dsc-data-science-processes) 
-* ![kcha_logo](https://github.com/sabinabains/phase-2-project/blob/master/image.jpg?raw=true)
