@@ -168,8 +168,11 @@ The predicted cost of a home for Family 5 would be $ 146,478, requiring a down p
 ```
 ├── data
 ├── images
-├── previous code
+├── other_code (previous iterations of code)
 ├── README.md
-├── Presentation.pdf
-└── analysis.ipynb
+├── Phase 2 Project - Sabina Bains - 1.19.22 .pptx (Presentation in PDF form)
+├── Phase 2 Project - Sabina Bains - 1.19.22 .pdf  (Presentation for Stakeholders)
+├── README.md (description of repo)
+├── KCHA_budget_analysis.pdf (PDF version of jupyter notebook for modeling)
+└── KCHA_budget_analysis.ipynb (jupyter notebook used for modeling)
 ```
