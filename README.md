@@ -1,7 +1,7 @@
 # Budget Analysis for King County Healing Association
-![kcha_logo](https://github.com/sabinabains/dsc-phase-2-project/blob/main/kcha%20logo.png)
+![kcha_logo](https://github.com/sabinabains/dsc-phase-2-project/blob/main/images/kcha%20logo.png)
 
-King County Healing Association is an established nonprofit organization that has a variety of successful initiatives such as rehabilitation centers, medical assistance, career services, and temporary housing for those re-entering their communities. The organization now wants to expand on their housing opportunities by rolling out a new service to help those who are prepared to transition into a permanent residence.  
+King County Healing Association is an established nonprofit organization that has a variety of successful initiatives such as rehabilitation centers, medical assistance, career services, and temporary housing for those re-entering their communities. ** The organization now wants to expand on their housing opportunities and needs our help estimating a budget for a program that helps eliminate bias in the housing process against those who are prepared to transition into a permanent residence **
 
 Unfortunately, those with criminal records tend to be discriminated against even after serving their sentence, and often banks do not lend money to these individuals. Additionally, those previously incarcerated could have bad credit or a lack of savings. Because of all this, KCHA plans to borrow from banks themselves and provide the down payment for applicants of this program. The new tenants can then pay off their mortgage to KCHA monthly, while additionally paying back the down payment over time. 
 
