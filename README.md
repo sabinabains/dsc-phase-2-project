@@ -78,89 +78,89 @@ Zipcodes were encoded and represented in the model as binary categorical values,
 Our final model had an adj. R squared value of 0.802, suggesting ~80% of variance in the data can be explained by our model's features. This result has the highest F-Statistic, and an associated lowest P-value of < 0.001, meaning we reject the null hypothesis that an intercept-only model would be a better predictor. All features also have an associated P-value of < 0.05, meaning there is less than a 5% chance that these variables have no effect on house price. Lastly, since this model is built for preliminary insights only and is mainly focused on changes in price due to location, we do not have too many specific features that require input, such as exact square footage of the home / lot / basement. Below states the value of a home at it's base (with no features), as well as changes in sale price value for each additional unit of a feature, assuming all other variables are held constant. The changes are reported as a percentage
 change, as the sale variable is log transformed.
 
-A home in zipcode 98001, with a value of 0 for all other features, would have a sale price of $43,398
-A one unit increase in bedrooms would increase the house price by 5.5%
-A one unit increase in bathrooms would increase the house price by 9.3%
-A one unit increase in grade would increase the house price by 21.8%
-Purchasing a home in zipcode_98004 would increase the house price by 216.3%
-Purchasing a home in zipcode_98005 would increase the house price by 113.6%
-Purchasing a home in zipcode_98006 would increase the house price by 98.2%
-Purchasing a home in zipcode_98007 would increase the house price by 86.1%
-Purchasing a home in zipcode_98008 would increase the house price by 96.8%
-Purchasing a home in zipcode_98010 would increase the house price by 40.2%
-Purchasing a home in zipcode_98011 would increase the house price by 56.3%
-Purchasing a home in zipcode_98014 would increase the house price by 51.6%
-Purchasing a home in zipcode_98019 would increase the house price by 43.5%
-Purchasing a home in zipcode_98022 would increase the house price by 17.1%
-Purchasing a home in zipcode_98023 would decrease the house price by 5.3%
-Purchasing a home in zipcode_98024 would increase the house price by 73.7%
-Purchasing a home in zipcode_98027 would increase the house price by 68.5%
-Purchasing a home in zipcode_98028 would increase the house price by 52.2%
-Purchasing a home in zipcode_98029 would increase the house price by 69.2%
-Purchasing a home in zipcode_98031 would increase the house price by 6.0%
-Purchasing a home in zipcode_98033 would increase the house price by 120.5%
-Purchasing a home in zipcode_98034 would increase the house price by 68.3%
-Purchasing a home in zipcode_98038 would increase the house price by 20.0%
-Purchasing a home in zipcode_98039 would increase the house price by 289.0%
-Purchasing a home in zipcode_98040 would increase the house price by 160.9%
-Purchasing a home in zipcode_98042 would increase the house price by 7.6%
-Purchasing a home in zipcode_98045 would increase the house price by 43.0%
-Purchasing a home in zipcode_98052 would increase the house price by 85.7%
-Purchasing a home in zipcode_98053 would increase the house price by 91.7%
-Purchasing a home in zipcode_98055 would increase the house price by 13.8%
-Purchasing a home in zipcode_98056 would increase the house price by 41.6%
-Purchasing a home in zipcode_98058 would increase the house price by 17.1%
-Purchasing a home in zipcode_98059 would increase the house price by 45.0%
-Purchasing a home in zipcode_98065 would increase the house price by 60.6%
-Purchasing a home in zipcode_98070 would increase the house price by 77.3%
-Purchasing a home in zipcode_98072 would increase the house price by 67.9%
-Purchasing a home in zipcode_98074 would increase the house price by 74.5%
-Purchasing a home in zipcode_98075 would increase the house price by 86.2%
-Purchasing a home in zipcode_98077 would increase the house price by 69.5%
-Purchasing a home in zipcode_98092 would increase the house price by 4.2%
-Purchasing a home in zipcode_98102 would increase the house price by 128.5%
-Purchasing a home in zipcode_98103 would increase the house price by 106.2%
-Purchasing a home in zipcode_98105 would increase the house price by 148.2%
-Purchasing a home in zipcode_98106 would increase the house price by 26.6%
-Purchasing a home in zipcode_98107 would increase the house price by 103.4%
-Purchasing a home in zipcode_98108 would increase the house price by 34.5%
-Purchasing a home in zipcode_98109 would increase the house price by 151.2%
-Purchasing a home in zipcode_98112 would increase the house price by 169.8%
-Purchasing a home in zipcode_98115 would increase the house price by 116.1%
-Purchasing a home in zipcode_98116 would increase the house price by 104.0%
-Purchasing a home in zipcode_98117 would increase the house price by 110.4%
-Purchasing a home in zipcode_98118 would increase the house price by 53.7%
-Purchasing a home in zipcode_98119 would increase the house price by 143.7%
-Purchasing a home in zipcode_98122 would increase the house price by 98.4%
-Purchasing a home in zipcode_98125 would increase the house price by 71.3%
-Purchasing a home in zipcode_98126 would increase the house price by 64.1%
-Purchasing a home in zipcode_98133 would increase the house price by 50.0%
-Purchasing a home in zipcode_98136 would increase the house price by 90.0%
-Purchasing a home in zipcode_98144 would increase the house price by 84.9%
-Purchasing a home in zipcode_98146 would increase the house price by 34.0%
-Purchasing a home in zipcode_98148 would increase the house price by 13.1%
-Purchasing a home in zipcode_98155 would increase the house price by 52.5%
-Purchasing a home in zipcode_98166 would increase the house price by 47.8%
-Purchasing a home in zipcode_98168 would increase the house price by 7.8%
-Purchasing a home in zipcode_98177 would increase the house price by 89.3%
-Purchasing a home in zipcode_98178 would increase the house price by 19.0%
-Purchasing a home in zipcode_98188 would increase the house price by 9.0%
-Purchasing a home in zipcode_98198 would increase the house price by 10.8%
-Purchasing a home in zipcode_98199 would increase the house price by 125.5%
-A one unit increase in has_basement_1.0 would increase the house price by 5.7%
-A one unit increase in renovated_1.0 would increase the house price by 13.3%
+* A home in zipcode 98001, with a value of 0 for all other features, would have a sale price of $43,398
+* A one unit increase in bedrooms would increase the house price by 5.5%
+* A one unit increase in bathrooms would increase the house price by 9.3%
+* A one unit increase in grade would increase the house price by 21.8%
+* Purchasing a home in zipcode_98004 would increase the house price by 216.3%
+* Purchasing a home in zipcode_98005 would increase the house price by 113.6%
+* Purchasing a home in zipcode_98006 would increase the house price by 98.2%
+* Purchasing a home in zipcode_98007 would increase the house price by 86.1%
+* Purchasing a home in zipcode_98008 would increase the house price by 96.8%
+* Purchasing a home in zipcode_98010 would increase the house price by 40.2%
+* Purchasing a home in zipcode_98011 would increase the house price by 56.3%
+* Purchasing a home in zipcode_98014 would increase the house price by 51.6%
+* Purchasing a home in zipcode_98019 would increase the house price by 43.5%
+* Purchasing a home in zipcode_98022 would increase the house price by 17.1%
+* Purchasing a home in zipcode_98023 would decrease the house price by 5.3%
+* Purchasing a home in zipcode_98024 would increase the house price by 73.7%
+* Purchasing a home in zipcode_98027 would increase the house price by 68.5%
+* Purchasing a home in zipcode_98028 would increase the house price by 52.2%
+* Purchasing a home in zipcode_98029 would increase the house price by 69.2%
+* Purchasing a home in zipcode_98031 would increase the house price by 6.0%
+* Purchasing a home in zipcode_98033 would increase the house price by 120.5%
+* Purchasing a home in zipcode_98034 would increase the house price by 68.3%
+* Purchasing a home in zipcode_98038 would increase the house price by 20.0%
+* Purchasing a home in zipcode_98039 would increase the house price by 289.0%
+* Purchasing a home in zipcode_98040 would increase the house price by 160.9%
+* Purchasing a home in zipcode_98042 would increase the house price by 7.6%
+* Purchasing a home in zipcode_98045 would increase the house price by 43.0%
+* Purchasing a home in zipcode_98052 would increase the house price by 85.7%
+* Purchasing a home in zipcode_98053 would increase the house price by 91.7%
+* Purchasing a home in zipcode_98055 would increase the house price by 13.8%
+* Purchasing a home in zipcode_98056 would increase the house price by 41.6%
+* Purchasing a home in zipcode_98058 would increase the house price by 17.1%
+* Purchasing a home in zipcode_98059 would increase the house price by 45.0%
+* Purchasing a home in zipcode_98065 would increase the house price by 60.6%
+* Purchasing a home in zipcode_98070 would increase the house price by 77.3%
+* Purchasing a home in zipcode_98072 would increase the house price by 67.9%
+* Purchasing a home in zipcode_98074 would increase the house price by 74.5%
+* Purchasing a home in zipcode_98075 would increase the house price by 86.2%
+* Purchasing a home in zipcode_98077 would increase the house price by 69.5%
+* Purchasing a home in zipcode_98092 would increase the house price by 4.2%
+* Purchasing a home in zipcode_98102 would increase the house price by 128.5%
+* Purchasing a home in zipcode_98103 would increase the house price by 106.2%
+* Purchasing a home in zipcode_98105 would increase the house price by 148.2%
+* Purchasing a home in zipcode_98106 would increase the house price by 26.6%
+* Purchasing a home in zipcode_98107 would increase the house price by 103.4%
+* Purchasing a home in zipcode_98108 would increase the house price by 34.5%
+* Purchasing a home in zipcode_98109 would increase the house price by 151.2%
+* Purchasing a home in zipcode_98112 would increase the house price by 169.8%
+* Purchasing a home in zipcode_98115 would increase the house price by 116.1%
+* Purchasing a home in zipcode_98116 would increase the house price by 104.0%
+* Purchasing a home in zipcode_98117 would increase the house price by 110.4%
+* Purchasing a home in zipcode_98118 would increase the house price by 53.7%
+* Purchasing a home in zipcode_98119 would increase the house price by 143.7%
+* Purchasing a home in zipcode_98122 would increase the house price by 98.4%
+* Purchasing a home in zipcode_98125 would increase the house price by 71.3%
+* Purchasing a home in zipcode_98126 would increase the house price by 64.1%
+* Purchasing a home in zipcode_98133 would increase the house price by 50.0%
+* Purchasing a home in zipcode_98136 would increase the house price by 90.0%
+* Purchasing a home in zipcode_98144 would increase the house price by 84.9%
+* Purchasing a home in zipcode_98146 would increase the house price by 34.0%
+* Purchasing a home in zipcode_98148 would increase the house price by 13.1%
+* Purchasing a home in zipcode_98155 would increase the house price by 52.5%
+* Purchasing a home in zipcode_98166 would increase the house price by 47.8%
+* Purchasing a home in zipcode_98168 would increase the house price by 7.8%
+* Purchasing a home in zipcode_98177 would increase the house price by 89.3%
+* Purchasing a home in zipcode_98178 would increase the house price by 19.0%
+* Purchasing a home in zipcode_98188 would increase the house price by 9.0%
+* Purchasing a home in zipcode_98198 would increase the house price by 10.8%
+* Purchasing a home in zipcode_98199 would increase the house price by 125.5%
+* A one unit increase in has_basement_1.0 would increase the house price by 5.7%
+* A one unit increase in renovated_1.0 would increase the house price by 13.3%
 
-## xx
+## Estimated Total Budget
 
-The cost details for each of the familys are listed below after inputting their family size, parole location, and general preferences (estimating a 30% down payment):
+The cost details for each of the families are listed below after inputting their family size, parole location, and general preferences (estimating a 30% down payment):
 
-The predicted cost for Family 1 is $ 328,112, requiring a down payment of at least $ 98,433
-The predicted cost for Family 2 is $ 172,145, requiring a down payment of at least $ 51,644
-The predicted cost for Family 3 is $ 345,946, requiring a down payment of at least $ 103,784
-The predicted cost for Family 4 is $ 388,881, requiring a down payment of at least $ 116,664
-The predicted cost for Family 5 is $ 146,478, requiring a down payment of at least $ 43,944
+The predicted cost of a home for Family 1 would be $ 328,112, requiring a down payment of at least $ 98,433
+The predicted cost of a home for Family 2 would be $ 378,468, requiring a down payment of at least $ 113,541
+The predicted cost of a home for Family 3 would be $ 345,946, requiring a down payment of at least $ 103,784
+The predicted cost of a home for Family 4  would be $ 653,298, requiring a down payment of at least $ 195,989
+The predicted cost of a home for Family 5 would be $ 146,478, requiring a down payment of at least $ 43,944
 
-**Total Estimated Budget Required: At least $ 414,469**
+**Total Budget Required: At least $ 555,691**
 
 
 ## Repository Structure
