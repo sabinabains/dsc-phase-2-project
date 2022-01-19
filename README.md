@@ -1,5 +1,5 @@
 # Budget Analysis for King County Healing Association
-![kcha_logo](https://github.com/sabinabains/dsc-phase-2-project/blob/main/images/kcha%20logo.png)
+![kcha_logo](https://github.com/sabinabains/dsc-phase-2-project/blob/main/images/kcha_logo.png)
 
 King County Healing Association is an established nonprofit organization that has a variety of successful initiatives such as rehabilitation centers, medical assistance, career services, and temporary housing for those re-entering their communities. ** The organization now wants to expand on their housing opportunities and needs our help estimating a budget for a program that helps eliminate bias in the housing process against those who are prepared to transition into a permanent residence **
 
